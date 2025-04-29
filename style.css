@@ -1,0 +1,89 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background-color: #1d6fa7;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header img {
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+header h2, header p {
+    margin: 0;
+}
+
+h2 {
+    color: #010911;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+div {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Keahlian p, .Riwayat p, .Tentang p, .Data p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #3498db;
+    cursor: help;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        float: none;
+        display: block;
+        margin: 10px auto;
+        height: 150px;
+    }
+
+    header h2, header p {
+        text-align: center;
+    }
+
+    div {
+        margin: 10px;
+    }
+}
+footer {
+    background-color: #171b49;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    word-spacing: 3em;
+}
+
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li.jilid {
+    word-spacing: normal;
+}
